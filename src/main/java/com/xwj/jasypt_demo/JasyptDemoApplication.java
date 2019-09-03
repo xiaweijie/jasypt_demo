@@ -8,5 +8,4 @@ public class JasyptDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(JasyptDemoApplication.class, args);
     }
-
 }
