@@ -1,0 +1,20 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://localhost:3306/springsecurity?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    url: ENC(wBI/koq46zDA7KjxX+Ff1VGH5+FS644EccoXNHkvES5v2bD1TcUdyD8M4pRKgMqISgUHR6DB6WLlZoCv+SId+ZGfqhZ+yuTcYPyFMTo4Z7F+FM9j/iOpMhKoie23I+K5iG6tGGWI5Wwsox31v80460zxqeSE+yR3Lfc7375H8Kc=)
+    username: ENC(GG0QP08aj8Mb2kkpYpoXD3MDr9amCmgiRTUE8gF60w4=)
+    password: ENC(GG0QP08aj8Mb2kkpYpoXD3MDr9amCmgiRTUE8gF60w4=)
+#  thymeleaf:
+#    cache: false
+
+#jasypt:
+#  encryptor:
+#    bean: createPassword
+#    password: xwj
+
+jasypt:
+  encryptor:
+    bean: xwj
